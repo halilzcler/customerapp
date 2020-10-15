@@ -1,0 +1,187 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+.fill-remaining-space{
+    flex: 1 1 auto;
+}
+
+.main-list-page{
+    margin: auto;
+}
+
+.jumbotron{
+    background-color: rgb(248, 249, 250);
+    padding-top: 32px;
+    margin:20px auto;
+}
+
+/*Customer Form*/
+
+form.normal-form{
+    margin: 10px;
+}
+
+    .controls-container{
+        width: 100%;
+        padding: 5%;
+    }
+
+    .controls-container > *{
+        width: 100%;
+    }
+
+    .add-bottom-padding{
+        padding: 10px;
+    }
+
+    .button-row button{
+        margin: 5px;
+        margin-top: 25px;
+    }
+
+.controls-right-container{
+    margin-top: 66px;
+}
+
+/*Customer List*/
+
+.search-div{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.create-div{
+    margin: 10px;
+    }
+
+.search-form-field{
+    width: 60%;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(233, 239, 241, 0.904);
+}
+
+.search-form-field div.mat-form-field-underline{
+    display: none;
+}
+
+.search-form-field div.mat-form-field-wrapper{
+    padding-bottom: 0px;
+}  
+        
+.search-form-field div.mat-form-field-infix{
+    border-top: 0px;
+}
+
+table{
+    width: 100%;
+   }
+   
+   .mat-column-firstname {
+     word-wrap: break-word !important;
+     white-space: unset !important;
+     flex: 0 0 17% !important;
+     width: 17% !important;
+     overflow-wrap: break-word;
+     word-wrap: break-word;
+   
+     word-break: break-word;
+   
+     -ms-hyphens: auto;
+     -moz-hyphens: auto;
+     -webkit-hyphens: auto;
+     hyphens: auto;
+   }
+   
+   .mat-column-lastname {
+     word-wrap: break-word !important;
+     white-space: unset !important;
+     flex: 0 0 17% !important;
+     width: 17% !important;
+     overflow-wrap: break-word;
+     word-wrap: break-word;
+   
+     word-break: break-word;
+   
+     -ms-hyphens: auto;
+     -moz-hyphens: auto;
+     -webkit-hyphens: auto;
+     hyphens: auto;
+   }
+   
+   .mat-column-email {
+     word-wrap: break-word !important;
+     white-space: unset !important;
+     flex: 0 0 26% !important;
+     width: 26% !important;
+     overflow-wrap: break-word;
+     word-wrap: break-word;
+   
+     word-break: break-word;
+   
+     -ms-hyphens: auto;
+     -moz-hyphens: auto;
+     -webkit-hyphens: auto;
+     hyphens: auto;
+   }
+   
+   .mat-column-id {
+     word-wrap: break-word !important;
+     white-space: unset !important;
+     flex: 0 0 20% !important;
+     width: 20% !important;
+     overflow-wrap: break-word;
+     word-wrap: break-word;
+   
+     word-break: break-word;
+   
+     -ms-hyphens: auto;
+     -moz-hyphens: auto;
+     -webkit-hyphens: auto;
+     hyphens: auto;
+   }
+   
+   .mat-column-customerId {
+     word-wrap: break-word !important;
+     white-space: unset !important;
+     flex: 0 0 15% !important;
+     width: 15% !important;
+     overflow-wrap: break-word;
+     word-wrap: break-word;
+   
+     word-break: break-word;
+   
+     -ms-hyphens: auto;
+     -moz-hyphens: auto;
+     -webkit-hyphens: auto;
+     hyphens: auto;
+   }
+   .mat-column-action {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 15% !important;
+    width: 15% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    word-break: break-word;
+  
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+
+
+
+/*Snack Bar Notification*/
+snack-bar-container.success{
+    background-color: darkseagreen;
+    color: floralwhite;
+}
+snack-bar-container.notification simple-snack-bar{
+    font-size: 15px !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
